@@ -2,7 +2,7 @@ import { NextResponse, type NextRequest } from 'next/server'
 import createMiddleware from 'next-intl/middleware'
 
 import { cookies } from 'next/headers'
-import { AppConfig } from './contans'
+import { AppConfig } from './constants'
 import { authRoutes, DEFAULT_REDIRECT, privateRoutes } from './utils/routes'
 
 const intlMiddleware = createMiddleware({
